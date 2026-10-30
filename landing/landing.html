@@ -24,7 +24,12 @@
 </style>
 
 <div id="aivip-root">
-  <iframe class="hb-update-frame" title="Thông báo cập nhật AiVip" src="https://aivip.com.vn/landing-update" loading="eager"></iframe>
+  <a href="https://aivip.com.vn/landing-update/open" target="_blank" rel="noopener noreferrer" aria-label="Mở thông báo cập nhật" style="display:block;line-height:0">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://aivip.com.vn/landing-update.svg?mobile=1">
+      <img src="https://aivip.com.vn/landing-update.svg" alt="Thông báo trang chủ AiVip" loading="eager" style="display:block;width:100%;height:auto">
+    </picture>
+  </a>
   <header class="hb-header">
     <div class="hb-container hb-nav">
       <a class="hb-brand" href="http://aivip.com.vn" target="_blank" aria-label="AiVip.com.vn">
@@ -35,8 +40,6 @@
       <div class="hb-hdr-tabs"><button type="button" id="aivip-tabbtn-login" class="on" onclick="document.getElementById('aivip-view-login').style.display='grid';document.getElementById('aivip-view-upd').style.display='none';this.classList.add('on');document.getElementById('aivip-tabbtn-upd').classList.remove('on');">Đăng nhập</button><button type="button" id="aivip-tabbtn-upd" onclick="document.getElementById('aivip-view-upd').style.display='block';document.getElementById('aivip-view-login').style.display='none';this.classList.add('on');document.getElementById('aivip-tabbtn-login').classList.remove('on');">🚀 Cập nhật</button></div>
     </div>
   </header>
-
-  <div class="hb-announcement"><div class="hb-container"><div class="hb-promo-fallback"><span>🎁 Ưu đãi trải nghiệm · Giảm 50% toàn bộ module trong 3 ngày</span><a href="#aivip-modules">Xem chi tiết <span>→</span></a></div></div></div>
 
   <main class="hb-container hb-main" id="aivip-view-login">
     <section class="hb-hero">
